@@ -6,13 +6,19 @@
 using namespace std;
 
 int main() {
-    Computadora c01;
-    c01.setSistemaOp("Windows 10");
-    c01.setProcesador("Intel i9 - 10na");
-    c01.setAlmacenamiento(2000);
-    c01.setMemoriaRam(32);
-
     Laboratorio lab;
+    lab.recuperar();
+    lab.recuperar();
+    lab.recuperar();
+    lab.mostrar();
+
+    //Computadora c01;
+    //c01.setSistemaOp("Windows 10");
+    //c01.setProcesador("Intel i9 - 10na");
+    //c01.setAlmacenamiento(2000);
+    //c01.setMemoriaRam(32);
+
+    //Laboratorio lab;
     //lab.agregarComputadora(c01);
 
 
@@ -21,14 +27,17 @@ int main() {
     //cin >> c02;
 
     //lab.agregarComputadora(c02);
-    lab << c01; //Lo mismo pero en menos lineas anteriores.
+    //lab << c01; //Lo mismo pero en menos lineas anteriores.
 
-    Computadora c03;
+    //Computadora c03;
 
-    cin >> c03;
-    lab << c03;
+    //cin >> c03;
+    //lab << c03;
 
-    lab.mostrar();
+
+    //lab.mostrar();
+    //lab.respaldar_tabla();
+    //lab.respaldar(); // Lineas por linea
 
 /*
     cout<<c01.getSistemaOp()<<endl;
